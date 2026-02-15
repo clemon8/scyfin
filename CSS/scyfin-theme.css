@@ -192,7 +192,7 @@ progress::-webkit-progress-value {
     backdrop-filter: blur(var(--blur)) !important;
 }
 .fullInnerCardFooter {
-    bottom: 5% !important;
+    bottom: 3% !important;
     width: 90% !important;
     margin: auto !important;
     border-radius: 100px !important;
@@ -200,7 +200,7 @@ progress::-webkit-progress-value {
     backdrop-filter: none !important;
 }
 .itemProgressBar:not(.playbackProgress):not(.transcodingProgress):not(.backgroundProgress) {
-    height: 10px !important;
+    height: 4px !important;
     background: var(--primary-background-transparent) !important;
     backdrop-filter: blur(2px) !important;
     border-radius: 100px !important;
@@ -217,9 +217,9 @@ progress::-webkit-progress-value {
 
 
 
-/* Green watched indicator */
+/* Watched indicator */
 .playedIndicator {
-    background: #409843 !important;
+    background: rgba(20, 20, 20, 0.5) !important;
 }
 
 
