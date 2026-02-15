@@ -26,7 +26,7 @@
 .selectionCommandsPanel,
 .countIndicator,
 progress[aria-valuenow]:before {
-    background: var(--primary-accent-color) !important;
+    background: rgba(20, 20, 20, .8) !important;
 }
 progress::-moz-progress-bar {
     background: var(--primary-accent-color) !important;
